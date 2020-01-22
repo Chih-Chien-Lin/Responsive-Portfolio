@@ -5,32 +5,26 @@
     <!-- We link our html to the Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="asset/media.css">
 </head>
 <body>
     <div class='container col-md-12' style="background-color:#dddddd">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white"
+             id="navbar_768 navbar_640">
             <!-- Our brand / logo -->
-            <a  class="navbar-brand offset-md-1 cl-md-2" 
+            <a  class="navbar-brand cl-md-2" 
+                id="name"
                 style=" padding:20px;
                         margin-top:-10px;
                         margin-bottom:-8px;
+                        margin-left:1%;
                         background-color:#4aaaa5"
                         href="#">Chih-Chien(Justin)Lin
             </a>
-                
-                <button class="navbar-toggler" 
-                        type="button" 
-                        data-toggle="collapse" 
-                        data-target="#navbarNavDropdown" 
-                        aria-controls="navbarNavDropdown" 
-                        aria-expanded="false" 
-                        aria-label="Toggle navigation">
-
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
                 <div class = "navbar-nav offset-md-6 cl-md-3">
-                    <li class="nav-item active">
+
+                    <li class="nav-item active mr-auto">
                         <a class="nav-link" href="index.html">about</a>
                     </li>
         
@@ -44,11 +38,11 @@
                 </div>
         </nav>
         
-        <div class="jumbotron 
-                    offset-md-1 
+        <div class="jumbotron  
                     col-md-7 
                     bg-white" 
-             style="margin-top:20px">
+             style="margin-top:20px;
+                    margin-left:1%">
 
             <!-- centered text -->
             <h1 class=" offset-md-1" 
@@ -62,7 +56,8 @@
             <div class ="row">
 
                 <img src="asset/personal photo.JPG" 
-                     class=" offset-md-1" 
+                     class=" offset-md-1"
+                     id="photo_640" 
                      style=" width:150px; 
                              height:225px">
                 <p class="col-md-7"> Hi everyone, I am Justin Lin from Taiwan, graduated from Boston University master of Science in Mechanical Engineering.
