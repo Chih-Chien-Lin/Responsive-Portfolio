@@ -1,6 +1,28 @@
 @media screen and (max-width: 768px) {
+  .para_768{
+    width:320px;
+  }
+  .rocket_photo_768{
+    margin-left:0 auto !important;
+    margin-top:30px;
+  }
+  .dish_photo_768{
 
+    margin-top:30px;
+  }
+  .rocket_link_768{
+    padding:15px ;
+    width:180px ;
+    height:50px ;
+    margin-left:25px;
 
+  }
+  .dish_link_768{
+    padding:13px;
+    width:180px;
+    height:50px;
+    margin-left:25px;
+  }
 }
 @media screen and (max-width: 640px) {
   #name {
@@ -12,7 +34,7 @@
 
   #navbar_640 {
     width:100%;
-    /* padding:10px; */
+
   }
   #photo_640{
       margin-left:auto;
