@@ -1,32 +1,45 @@
 @media screen and (max-width: 768px) {
-    /* The body's bg color will be #333 */
-  
-    /* The wrapper's width will be 600px */
-    #navbar_768 {
-      float:right;
-      /* padding:10px; */
-    }
 
-    
-  }
+
+}
 @media screen and (max-width: 640px) {
-    /* The body's bg color will be #333 */
-    #name {
-      width: 508px;
-      margin-right:-30px;
-      margin-left:-15px;
-      text-align:center;
-    }
-  
-    /* The wrapper's width will be 600px */
-    #navbar_640 {
-      width:100%;
-      /* padding:10px; */
-    }
-    #photo_640{
-        margin-left:auto;
-        margin-right:auto;
-    }
-    
+  #name {
+    width: 508px;
+    margin-right:-30px !important;
+    margin-left:-15px !important;
+    text-align:center;
   }
-  #ddddd
+
+  #navbar_640 {
+    width:100%;
+    /* padding:10px; */
+  }
+  #photo_640{
+      margin-left:auto;
+      margin-right:auto;
+  }
+  #rocket_photo_640{
+      margin-left:25% !important;
+      margin-right:26% !important;
+
+  }
+  #dish_photo_640{
+      margin-left:16% !important;
+      margin-right:18% !important;
+      margin-top:30px;
+  }
+  #rocket_link_640{
+    padding:13px !important;
+    width:180px;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  #dish_link_640{
+    padding:13px !important;
+    width:180px;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
